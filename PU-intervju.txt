@@ -1,0 +1,150 @@
+PU intervju av forelesere:
+
+Har brukt litt rar måte å skrive på her, tok det litt på sparket :p
+syntaksen er som følger:
+--- hovedstikkord ---
+- hva intervjuobjektet har sagt
+>> spørsmål fra en av oss
+? ideer fra en av oss som har kommet underveis
+// kommentarer
+
+
+--- Stefan Werner ---
+
+- mindre grupper: lettere å få kontakt
+- store grupper: få alle til å være med - gausskurve, noen henger med noen gjør det ikke
+- sjenerte elever
+- man får ikke mulighet til å lære å kjenne, gjerne er det elevene som trenger mest å lære å kjenne
+- tror man trenger et system for å få elevene til å fort lære å kjenne
+- kanskje en app for å stille spørsmål
+? del inn folk i mindre grupper og slå sammen etter hvert?
+
+--- store grupper ---
+--- kjenner ikke hverandre --- ^ // her betyr ^ at det under kommer av det over
+--- sjenerte studenter --- ^
+
+>> hva tror du om en løsning der halvparten av undervisningen er reversed classroom?
+- jeg tror fysisk nervær er viktig, så må i såfall bli en blanding
+- typisk problem er at slike kurs er for enkle, slik at det kreves mye mer
+>> flervalgsoppgaver midt i forelesning?
+- samle opp spørsmål underveis og gå igjennom etter hvert
+? stemme på spørsmål i tillegg
+
+>> noen verktøy du føler mangler?
+- tror det er bra med en blanding av powerpoint, tavle, programmering osv. - variasjon
+- problem å holde konsentrasjonen i 45 min i strekk
+- krever mye planlegging
+- i finland hadde vi bare 6 uker, da var det lettere å ha et overblikk over kurset.
+- et semester inneholder veldig mye informasjon.
+
+--- konsentrasjon gjennom timen ---
+--- vel mye å lære per semester ---
+
+>> hvordan ville du ha vurdert et fag uten eksamne?
+- det skulle ha vært et prosjekt
+- eller sånn typisk der man skriver et program også få det automatisk retting
+- problem med å rette prosjekt, ofte er det rapporten som blir vurdert mer enn selve oppgaven
+
+--- vanskelig å kunne rette oppgavene til studentene på en enkel måte som også gir en god vurdering ---
+- det finnes ikke noen almenne regler eller systemer
+? det er fint med et system som alle bruker, slik at alle studentene blir vant til det
+
+--- *** ---
+
+--- Kimmo Kansanen ---
+>> Vi har et prosjekti PU der vi skal lage noe for undervisning, hva underviser du i?
+- kommunikasjonsteori
+>> når du underviser det, og tidligere, hvilket problemer synes du har vært størst?
+- spesifiser, det er massevis av problemer!
+>> det kan være mye rart, ...
+- studenter sovner hvis det er teori
+// etter en tenkepause
+// lager liste
+// grubler
+>> må ikke være i forbindelse med forelesninger heller
+- faglogistikken, alt som må leveres inn, frister på øvingsopplegg. Det som er problemet i faget mitt:
+- vi har jo itslearning som er greit, men problemer met matematikkbruk.
+- enklest er det å bruke håndskrift, men det er vanskelig å forstå
+- hvis man bruker elektronisk verktøy, f.eks LaTeX o.l. tar det veldig lang tid.
+--- Man trenger noe som gir mulighet til å skrive ligninger like fort som papir og like forståelig som LaTeX ---
+- dette problemet er like stort på øvinger og på eksamen
+- bare man har det elektronisk kan man gjøre mye, men første bud er å gjøre det lesbart
+- på andre siden så trenger man å kunne visualisere matematikken, det tar tid å lage.
+- man går gjerne over til matlab, det er jo greit nok, men:
+- det tar veldig lang tid å lage og er vanskelig å integrere i undervisningen
+? man lager visualisering for et bestemt fag og det fungerer greit men blir vanskelig å universialisere
+? det blir ikke pent men like komplisert
+--- konkretisere og visualisere teori effektivt ---
+- praksis trenger ikke visualiseres
+- studentene kunne ha gjort mere selv, og laget en slik visualisering selv, men det mangler verktøy for å hjelpe de med det.
+- bruker ofte matlab til å lage øvinger der resultatet blir en slik visualisering
+- det er veldig nyttig å jobbe med matlab, men det er noe som har praktisk nytte i industri men man kan ikke ta det i eksamen
+- man vil gjerne inkludere profesjonelle verktøy i eksamen, men det
+>> hva er det som er problemet konkret?
+- det er en veldig begrenset verktøykasse
+--- det er alltid et problem å teste studentenes kunnskap om profesjonelle verktøy ---
+- noen basisverktøy lærer man å bruke, men på eksamen er det ikke praktisk mulig å integrere på eksamen.
+- kunne kanskje ha brukt prosjekt..
+- hadde vært veldig fint å få testet matlabegenskaper for min del hvertfall
+--- *** ---
+
+
+--- Bjørn B. Larsen ---
+>> Vi skal løse problemer foreleser har, relatert til både forelesninger og faget generelt
+- tja, da vet jeg ikke om jeg har noe problem!
+- Vi trenger et versionshåndteringsystem, og tenker å bruke Git nå da.
+? Hadde Git-integrasjon i itslearning vært noe
+- jeg har et problem, git er veldig nerdefokusert. Kunne godt ha tenkt meg et grafisk grensesnitt
+>> Github har vel en allerede
+- VCS har en skilpadde, det var litt greiere grensesnitt
+- Vi bruker bitbucket.
+>> Hvilket fag underviser du?
+- ELSYS prosjekt TTT4270
+>> Er det noe undervisng i det faget?
+- det er litt, men mest prosjekt, vi bruker Koopen.
+- vi har to økter 4 timer hver uke dette semesteret
+- i år skal vi bruke scrum da, så da skal vi prøve en scrum-inspirert prosjektstyring
+>> blir studass scrum-master
+- nei, vi foreleser blir det, men vi kjører ikke fullt løp, 3 ukers sprinter osv..
+>> Har dere hatt noen problemer tidligere, bortsett fra versionskontroll?
+- Det har bare vært kjørt en gang før,
+- alle IT-studier ble undersøkt og så ble ELSYS.
+>> Har du undervist andre fag tidligere?
+- da har jeg savnet versionskontroll
+- vi bruker verilog når vi designer kretser, der hadde versionskontroll vært bra
+>> Problemer med å installere git
+- ja
+- vi starter mykt med arduino, og 2. semester får de en "Analog Discovery"
+- så de har litt erfaring med å installere programmer da
+? Hadde det fungert ut fra browser hadde det gjort det mye mer portabelt
+>> La oss bevege oss bort fra versionskontroll
+>> Vi har tidligere snakket om kommunikasjonsproblemer, har du vært borti det?
+- Vi bruker SRS, som er litt enklere å bruke å bruke Kahoot
+- det er mye enklere for oss å bruke og mye enkeler for studentene
+- vi lager åpne spørsmål og så får studentene svare
+- Det SRS-opplegget tror vi løser det meste av problemer der
+>> Hva med innleveringer da, er det mye av dem?
+- ja det innleveringer hver uke
+- analyseøving og designøvinger // spør kristian, han har vært igjennom dette
+>> Har du støtt på noen problemer i forbindelse med dette?
+>> Kimmo nevnte problemer med håndskrift, har du hørt om det?
+- har ikke hørt noe om det, studassene tar seg av analyse og designøvingen må leveres elektronisk
+- har jo foråvidt et problem nå da, jeg skal være blackboardperson for instituttet!
+>> Det som er med blackboard er jo at hist har brukt NTNU og ålesund har brukt fronter
+>> blackboard er mye lettere å "customize"
+- synes det er merkelig at blackboard har blitt anbefalt
+>> hvordan synes du det er i forhold til itslearning?
+- Jeg er hvertfall vant til det, forstår hva man skal gjøre (intuitivt)
+- kjenner en som skulle prøve å kopiere innholdet, og det var så vanskelig at man ikke fant funksjonen
+- gruppepåmelding er problem i BB
+- studenter gjør feil, og det kan ikke reverseres
+- vi har et system som heter dale, og vi hadde sett frem til å hive det ut, men ser dårlig ut.
+>> Typisk problem med piloter
+- Tja, vi er jo ikke de første som bruker dette systemet.. men nytt for universiteter
+--- *** ---
+--- ideer ---
+
+? Dele inn i grupper, som slåes sammen etter hvert - en diskusjonsplatform rundt dette - anonymt eller ikke
+? Lage konkurranse
+? vurderingsplatform - Safe Exam Browser der man lett kan integrere sine programmer
+? Lage en intuitiv måte å skrive ligninger på // vanskelig å slå LaTeX, men hadde jo vært awesome!
