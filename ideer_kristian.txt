@@ -1,0 +1,106 @@
+/* SYNTAX */
+/* each estimated hour is per developer.
+eg. If two developers work 1 hour each, 2 hours is estimated*/
+
+/* assumptions */
+-- prerequisite -- // total estimated hours needed
+- parts of prerequisites // estimated hours needed
+** idea ** // total estimated hours needed
+>> solves this problem
+-- is implemented this way -- // total estimated hours needed
+- parts of implementation // estimated hours needed
+? has this risks
+
+// as always, this means comment
+
+/* SYNTAX END */
+
+/* this implementation assumes we use the framework meteorjs with react for ui*/
+/* other frameworks can of course be used, but the the writer has most experience
+with theese, so the working hours are estimated using this assumptions */
+/* it is also assumed that every developer have taken time to understand
+the basic concepts and syntax for meteorjs and react before starting to work
+on the parts mentioned below */
+
+// collection is mentioned several times below,
+// this is mongodb lingo, roughly equivalent to a table in SQL.
+
+-- infrastructure -- // 6
+- choose architecture // 2
+- start project and initialize infrastructure according to architecture // 2
+- initialize git repository and include all team members // 2
+-- user account system -- // 8
+// comes out of the box in Meteor, but needs some adjustments to work with react
+- set up the stuff // 1
+- fix weird errors // 4
+- include roles, student, lecturer, TA, etc.. // 3
+// email verification will ensure authorization in the MVP,
+// but one can choose to switch to Feide when the time is right.
+// setting a username, and only making that visible to others will
+// keep participants anonymous.
+
+? it might be cumbersome to link extra features to the user object
+
+** groups ** // 37
+>> does in itself not solve any problem, but:
+>> will make the other ideas go from ok to great
+-- logics on server -- // 16
+- courses collection // 2
+- groups collection, link to courses // 2
+- person chooses group members // 1
+- person accepts request // 1
+- instructor accepts group // 1
+- instructor manipulates groups // 2
+- instructor sets min/max limits // 2
+- force limits // 1
+- fix unexpected bugs // 4
+-- GUI -- // 21
+- choose from members of the course // 4
+- force limits // 2
+- see requests and accept/decline // 2
+- instructor accept group // 1 - use code from above
+- instructor manipulates groups // 5
+- instructor sets min/max limits // 1
+- fix bugs // 6
+
+? we do not know how much limits the lecturers actually want
+
+** competitions / excerises **
+>> should keep students focused and enganged.
+>> can be used for evaluation.
+-- as a lecturer i want to make tasks -- // 9
+- make tasks collection // 1
+- make questions collection // 1
+// one task can have many questions, questions can be open such that students
+// can deliver their answers or they can be multiple choice questions in which
+// case they also must contain the possible answers.
+- forms the lecturer fills in to create tasks // 2
+- forms the lecturer fills in to make questions // 1 - use code from above
+- a few bugs // 4
+
+-- as a student i want to deliver my answers -- // 44
+- view to show the tasks // 5
+- show the questions // 3
+- make fancy smanchy kahoot-style live multiple choice answering // 18
+// ^ this goes so fast because meteor is reactive by default
+- make it possible to store and retreive documents on server // ?? lets say 10
+- expecting a really few juicy bugs and one funky // 8
+
+? one must find out what is needed for handling documents like pdf and such
+? one must make sure that one cannot deliver excerises on behalf of others
+
+
+/* theese require that we use react */
+** packages proposed ** // absolutely not an exhaustive list
+- aldeed:simpleSchema for validation/structuring
+- vazco:uniforms for forms - makes automatic forms based on simpleSchema
+
+
+** Link to other ideas ** // just throwing out some ideas here
+-- question asking --
+>> one can to the group instead of all course participants
+>> one can ask a question as a group instead of just as an individual
+>> one can open for conversations between lecturer / TA and group
+-- git integration --
+>> one can use git repository as what will be delivered from the group
+? login with github? automatic groups from repo membership?
