@@ -65,7 +65,7 @@ on the parts mentioned below */
 
 ? we do not know how much limits the lecturers actually want
 
-** competitions / excerises **
+** competitions / excerises ** // 53
 >> should keep students focused and enganged.
 >> can be used for evaluation.
 -- as a lecturer i want to make tasks -- // 9
@@ -89,6 +89,12 @@ on the parts mentioned below */
 ? one must find out what is needed for handling documents like pdf and such
 ? one must make sure that one cannot deliver excerises on behalf of others
 
+** TOTAL TIME NEEDED **
+- total from all things mentioned above: 104 hours
+- time needed to learn new stuff: 12*4 = 48 hours
+- total: 152 hours
+- which probably ends up becoming about 300 hours of work, 75 per developer.
+** ----------------- **
 
 /* theese require that we use react */
 ** packages proposed ** // absolutely not an exhaustive list
